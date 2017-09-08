@@ -6,16 +6,16 @@
 
 ## README
 
+### [请先浏览原项目README Please read the origon README first](https://github.com/pinggod/hexo-theme-apollo/README.md)  
+
 - 这个项目修改自 [Hexo Apollo 主题](https://github.com/pinggod/hexo-theme-apollo)
 - 修改为卡片风格
-- 增加点击后加载 Disqus 功能
+- 增加点击后加载 Disqus 功能
   
 - This project is modified from [Hexo Theme Apollo](https://github.com/pinggod/hexo-theme-apollo)
 - Modify to card stye
 - Add the load the Disqus after click function
 
-[请先浏览原项目README](https://github.com/pinggod/hexo-theme-apollo/README.md)  
-[Please read the origon README first](https://github.com/pinggod/hexo-theme-apollo/README.md)
 
 ## 贡献 Contribute
 
