@@ -1,26 +1,27 @@
 {
-  "name": "hexo-theme-apollo",
+  "name": "apollo-card",
   "version": "1.0.0",
-  "description": "A hexo theme inspired by vuejs.org",
+  "description": "Apollo theme in card style.",
   "main": "index.js",
   "scripts": {
     "sass": "gulp sass"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinggod/hexo-theme-apollo"
+    "url": "https://github.com/NobelLiu/hexo-theme-apollo"
   },
   "keywords": [
     "hexo",
     "theme",
-    "apollo"
+    "apollo",
+    "card"
   ],
-  "author": "Sean Sun",
+  "author": "Nobel Liu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-apollo/issues"
+    "url": "https://github.com/NobelLiu/hexo-theme-apollo/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
+  "homepage": "https://github.com/NobelLiu/hexo-theme-apollo#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
