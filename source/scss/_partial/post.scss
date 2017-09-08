@@ -1,5 +1,28 @@
 .post {
-    padding-top: 1em;
+    padding: 3em;
+    background-color: white;
+    background: #fff 50%;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+}
+
+.post:hover {
+    box-shadow: 0 0 1px rgba(39,44,49,.1), 0 3px 16px rgba(39,44,49,.07);
+    transition: all .3s ease;
+    transform: translate3D(0,-1px,0);
+}
+
+.comments{
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    color: #aaa;
+    text-align: center;
+    &:hover {
+        color: #aaa;
+    }
 }
 
 .post-block {
