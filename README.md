@@ -1,46 +1,48 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/NobelLiu/nobelliu.github.com/master/art.png"/>
+</p> 
 
-## 文档
+![hexo-theme-apollo](./screenshot.png)
 
-- [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
-- [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
+## README
 
-## 贡献
+- 这个项目修改自 [Hexo Apollo 主题](https://github.com/pinggod/hexo-theme-apollo)
+- 修改为卡片风格
+- 增加点击后加载 Disqus 功能
+  
+- This project is modified from [Hexo Theme Apollo](https://github.com/pinggod/hexo-theme-apollo)
+- Modify to card stye
+- Add the load the Disqus after click function
 
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
+[请先浏览原项目README](https://github.com/pinggod/hexo-theme-apollo/README.md)  
+[Please read the origon README first](https://github.com/pinggod/hexo-theme-apollo/README.md)
 
-## 安装
+## 贡献 Contribute
 
-[![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
+该项目欢迎 pull request。   
+You're welcome to pull request.
+
+## 安装 Install
 
 ``` bash
 hexo init Blog 
 cd Blog 
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+git clone https://github.com/NobelLiu/hexo-theme-apollo-card.git themes/apollo-card
 ```
 
-## 启用
+## 启用 Enable
 
-修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
+修改 `_config.yml` 的 `theme` 配置项为 `apollo-card`:
 
 ```yaml
-theme: apollo
+theme: apollo-card
 
-# 在归档页面显示所有文章
-# 需要上面安装的 hexo-generator-archive 插件支持
-archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
-```
-
-## 更新
+## 更新 Update
 
 ``` bash
-cd themes/apollo 
+cd themes/apollo-card 
 git pull
 ```
 
