@@ -19,7 +19,7 @@
 
 ## 贡献 Contribute
 
-该项目欢迎 pull request。   
+该项目欢迎 pull request。
 You're welcome to pull request.
 
 ## 安装 Install
