@@ -37,7 +37,8 @@ git clone https://github.com/NobelLiu/hexo-theme-apollo-card.git themes/apollo-c
 修改 `_config.yml` 的 `theme` 配置项为 `apollo-card`:
 
 ```yaml
-theme: apollo-card
+theme: apollo-card  
+```
 
 ## 更新 Update
 
