@@ -6,14 +6,15 @@
         background: #fff 50%;
         background-size: cover;
         border-radius: 5px;
-        box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
-        transition: all .5s ease;
-    }
-    .post-list-item:hover {
         box-shadow: 0 0 1px rgba(39,44,49,.1), 0 3px 16px rgba(39,44,49,.07);
         transition: all .3s ease;
-        transform: translate3D(0,-1px,0);
+        &:hover {
+            box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+            transition: all .5s ease;
+            transform: translate3D(0,1px,0);
+        }
     }
+    
     .post-content{
         h2, h3, h4, h5, h6 {
             &:before {

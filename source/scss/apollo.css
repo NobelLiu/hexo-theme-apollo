@@ -509,14 +509,14 @@ header .nav-list-item a {
   background: #fff 50%;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-  transition: all .5s ease;
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .3s ease;
 }
 
 .home.post-list .post-list-item:hover {
-  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-  transition: all .3s ease;
-  transform: translate3D(0, -1px, 0);
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all .5s ease;
+  transform: translate3D(0, 1px, 0);
 }
 
 .home.post-list .post-content h2:before, .home.post-list .post-content h3:before, .home.post-list .post-content h4:before, .home.post-list .post-content h5:before, .home.post-list .post-content h6:before {
@@ -569,14 +569,14 @@ header .nav-list-item a {
   background: #fff 50%;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-  transition: all .5s ease;
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .3s ease;
 }
 
 .post:hover {
-  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-  transition: all .3s ease;
-  transform: translate3D(0, -1px, 0);
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all .5s ease;
+  transform: translate3D(0, 1px, 0);
 }
 
 .comments {
