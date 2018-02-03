@@ -4,16 +4,11 @@
 
 ![hexo-theme-apollo](./screenshot.png)
 
-## README
  
-- This project is fork from [Hexo Theme Apollo](https://github.com/pinggod/hexo-theme-apollo)
+- Fork from [Apollo](https://github.com/pinggod/hexo-theme-apollo)
 - Change to card stye
-- Hide Disqus by default
+- Hide comment by default
 
-
-## Contribute
-
-You're welcome to pull request.
 
 ## Install
 
